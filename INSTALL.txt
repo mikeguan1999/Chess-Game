@@ -1,0 +1,36 @@
+To build our project, use the 'make build' command from the command line.
+
+To play the game, use 'make play' which will build the program as well
+as initialize the game of chess. In order to run the gui, the graphics library 
+needs to be installed using:
+
+[opam install graphics]
+
+and camlimages must also be installed using:
+
+[opam install camlimages]
+
+To use the graphics library, the computer needs to either have the application
+XMing(Windows) or XQuartz(Macintosh). We ran our app using the graphics package
+version 4.08.1 and camlimages version 5.0.1.
+
+
+
+
+
+In the game, move pieces using the move command in the form:
+
+  move [starting row] [starting column] [ending row] [ending col].
+
+
+In our game, white pieces move first and players have to alternate moving their
+pieces. Pieces are only able to move according to their specific moveset. 
+Currently, we have not yet made it so that pieces can't capture their own pieces
+and pieces can't pass through other pieces. The game of chess will continue 
+until the 'quit' command issued by either player.
+
+
+
+Resources used:
+For our chess pieces, we used the png files from:
+https://commons.wikimedia.org/wiki/Category:PNG_chess_pieces/Standard_transparent

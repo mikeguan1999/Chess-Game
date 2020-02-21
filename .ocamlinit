@@ -1,0 +1,10 @@
+#require "oUnit";;
+#require "yojson";;
+#require "ANSITerminal";;
+#require "graphics";;
+#require "camlimages.graphics";;
+#require "camlimages.png";;
+#directory "_build";;
+#load "game.cmo";;
+#load "command.cmo";;
+#load "state.cmo";;
